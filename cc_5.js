@@ -1,13 +1,12 @@
 // Corporate Employees 
 
 const employees = [
-  { name: "Spongebob",   hourlyRate: 15,    hoursWorked: 40 },
-  { name: "Patrick",         hourlyRate: 100,    hoursWorked: 40 },
-  { name: "Squidward", hourlyRate: 40,    hoursWorked: 40},
-  { name: "Sandy",      hourlyRate: 50,    hoursWorked: 45 },
-  { name: "Krabs",  hourlyRate: 35,    hoursWorked: 40 }
+  { name: "Spongebob", hourlyRate: 15, hoursWorked: 40 },
+  { name: "Patrick", hourlyRate: 100, hoursWorked: 40 },
+  { name: "Squidward", hourlyRate: 40, hoursWorked: 40},
+  { name: "Sandy", hourlyRate: 50, hoursWorked: 45 },
+  { name: "Krabs", hourlyRate: 35, hoursWorked: 40 }
 ];
-
 
 function calculateBasePay(hourlyRate, hoursWorked) {
      let validHours;
@@ -47,7 +46,6 @@ function processPayroll(employees) {
     };
 
     }
-
 
 employees.forEach(emp => {
     console.log(processPayroll(emp));
